@@ -53,13 +53,10 @@ header {
     letter-spacing: 0.02em;
 }
 
-.nav-list>a:hover {
+.nav-list:hover,:focus {
     color: #404bbf;
 }
 
-.nav-list>a:focus {
-    color: #404bbf;
-}
 
 .nav-menu>li>a {
     color: #2E2F42;
@@ -174,15 +171,20 @@ footer {
 footer> .logo {
     color: #F4F4FD;
     justify-content: center;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    line-height: 1.17;
+    color: #4d5ae5;
     }
 
+    footer> .logo>.logo-color {
+        color: #f4f4fd;
+    }
 footer>p {
     color: #F4F4FD;
     /* Body */
