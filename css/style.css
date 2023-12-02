@@ -81,7 +81,7 @@ gap: 40px;
     color: #4D5AE5;
 }
 /*
-nav> #logo {
+nav> .logo {
     color: #2E2F42;
     display: inline-flex;
     height: 24px;
@@ -90,7 +90,7 @@ nav> #logo {
 }
 */
 
-nav> #logo {
+nav> .logo {
     color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
@@ -179,7 +179,7 @@ footer {
     background-color: #2E2F42;
 }
 
-footer> #logo {
+footer> .logo {
     color: #F4F4FD;
     display: flex;
     width: 44px;
