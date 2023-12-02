@@ -53,10 +53,13 @@ header {
     letter-spacing: 0.02em;
 }
 
-.nav-list:hover,:focus {
+.nav-list:hover {
     color: #404bbf;
 }
 
+.nav-list:focus {
+    color: #404bbf;
+}
 
 .nav-menu>li>a {
     color: #2E2F42;
