@@ -3,6 +3,7 @@
 body {
     font-family: Roboto, sans-serif;
     color:#434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -14,8 +15,7 @@ a {
     display: flex;
     }
 
-    p {width: 264px;
-    /* Body */
+    p {
     font-size: 16px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;}
@@ -44,7 +44,6 @@ a {
 
 /*nav Top menu*/
 header {
-    width: 1440px;
     height: 72px;
     flex-shrink: 0;
     border-bottom: 1px solid #E7E9FC;
@@ -77,8 +76,8 @@ gap: 40px;
     letter-spacing: 0.32px;
 }
 
-.logoColor {
-    color: #4D5AE5;
+.logo-color {
+    color: #2e2f42;
 }
 /*
 nav> .logo {
@@ -91,22 +90,20 @@ nav> .logo {
 */
 
 nav> .logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    width: 71px;
 }
 
 /* main-effective */
 
 .main-effective {
     background-color: #2E2F42;
-    width: 1440px;
     height: 600px;
     flex-shrink: 0;
 }
@@ -143,28 +140,19 @@ nav> .logo {
 /*main-Values*/
 
 .main-Values {
-    width: 1128px;
-    height: 344px;
     flex-shrink: 0;
 }
 
-.main-Values>li {
-    width: 264px;
-}
 
 /*Team*/
 
 .team {
-    width: 1440px;
-    height: 732px;
     flex-shrink: 0;
     background-color: #F4F4FD;
 }
 
 .team>li {
-    display: inline-flex;
     padding-bottom: 32px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 32px;
@@ -173,18 +161,11 @@ nav> .logo {
 /*footer*/
 
 footer {
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
     background-color: #2E2F42;
 }
 
 footer> .logo {
     color: #F4F4FD;
-    display: flex;
-    width: 44px;
-    height: 21px;
-    flex-direction: column;
     justify-content: center;
     font-family: Raleway;
     font-size: 18px;
@@ -196,7 +177,6 @@ footer> .logo {
     }
 
 footer>p {
-    width: 264px;
     color: #F4F4FD;
     /* Body */
     font-size: 16px;
