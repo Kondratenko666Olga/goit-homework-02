@@ -12,7 +12,6 @@ a {
 
     ul {
     list-style-type: none;
-    display: flex;
     }
 
     p {
@@ -44,24 +43,11 @@ a {
 
 /*nav Top menu*/
 header {
-    height: 72px;
     flex-shrink: 0;
-    border-bottom: 1px solid #E7E9FC;
     background: var #FFF;
-    display: flex;
 }
 
-.nav-menu {
-display: inline-flex;
-align-items: flex-start;
-gap: 40px;
-}
 
-.nav-menu {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
 
 .nav-menu>li>a {
     color: #2E2F42;
@@ -79,15 +65,6 @@ gap: 40px;
 .logo-color {
     color: #2e2f42;
 }
-/*
-nav> .logo {
-    color: #2E2F42;
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
-}
-*/
 
 nav> .logo {
     color: #4d5ae5;
@@ -104,7 +81,6 @@ nav> .logo {
 
 .main-effective {
     background-color: #2E2F42;
-    height: 600px;
     flex-shrink: 0;
 }
 
@@ -120,13 +96,7 @@ nav> .logo {
 }
 
 .main-effective>button {
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color:#FFF;
     /* Button Text */
     font-size: 16px;
@@ -152,10 +122,7 @@ nav> .logo {
 }
 
 .team>li {
-    padding-bottom: 32px;
     justify-content: center;
-    align-items: center;
-    gap: 32px;
 }
 
 /*footer*/
